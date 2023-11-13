@@ -1,0 +1,659 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color:white;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+.navbar ul li a{
+   text-decoration: none;
+   font-size: 18px;
+   color: black;
+   transition: 0.5s;
+}
+.navbar ul li a:hover{
+    color:#4b8ef1 ;
+}
+.navbar ul li .color{
+    color:#4b8ef1;
+}
+.navbar ul button{
+    display: flex;
+    background-color: #4b8ef1;
+  color: #fff;
+  padding: 15px;
+  border-radius: 40px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 30px;
+  gap: 10px;
+}
+.navbar .menu{
+    font-size: 30px;
+    display: none;
+}
+hr{
+    opacity: 0.5;
+    margin: 10px 0px;
+}
+.secation1{
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.secation1 .right h1{
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.secation1 .right .p{
+ font-size: 20px;
+ line-height: 1.5;
+ width: 80%;
+ margin-bottom: 30px;
+}
+.secation1 .right .a{
+    gap: 30px;
+    display: flex;
+}
+.secation1 .right button{
+    background-color: #4b8ef1;
+  color: #fff;
+  padding: 15px;
+  border-radius: 40px;
+  width: 150px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;  
+  display: flex;
+  gap: 10px;
+}
+.secation1 .left img{
+    width: 100%;
+
+}
+.secation2{
+    width: 90%;
+    margin: 100px auto;
+
+
+
+}
+.secation2 .up{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.secation2 .up h2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.secation2 .up h2 span{
+    color: #4b8ef1;
+}
+.secation2 .up p{
+    width: 50%;
+margin: auto;
+opacity: 0.5;
+line-height: 1.5;
+}
+.secation2 .down{
+    margin: 10px 80px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.secation2 .down .icon > * {
+    margin-top: 30px;
+    font-size: 18px;
+}
+.secation2 .down .icon{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    border-radius: 10px 50px 10px 10px;
+}
+.secation2 .down .icon i{
+   color: #4b8ef1;
+   font-size: 30px;
+}
+.secation2 .down .icon p{
+    opacity: 0.5;
+    font-size: 17px;
+    line-height: 1.5;
+}
+.secation2 .down .icon div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.secation2 .down .icon div a{
+    text-decoration: none;
+    color: #4b8ef1;
+}
+.secation2 .down :hover{
+    background-color: #4b8ef1;
+    color: white;
+}
+.secation2 .down :hover i{
+    color: white;
+}
+.secation2 .down :hover div a{
+    color: white;
+}
+.secation2 .down :hover p{
+    /* color: white; */
+    opacity: 1;
+
+}
+.secation3{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 100px auto;
+    gap: 10px;
+}
+.secation3 .left > * {
+    margin-bottom: 60px;
+}
+.secation3 .left h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.secation3 .left h1 span{
+    color: #4b8ef1;
+}
+.secation3 .left p{
+    opacity: 0.5;
+}
+.secation3 .left .up{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.secation3 .left .up button{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color:white;
+  color: #080101;
+  padding: 15px;
+  border-radius: 40px;
+  width: 250px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.secation3 .left button{
+    background-color: #4b8ef1;
+  color: #fff;
+  padding: 20px;
+  border-radius: 40px;
+  width: 250px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; 
+}
+.secation3 .right img{
+    width: 100%;
+}
+.secation4{
+    width: 90%;
+    margin: 100px auto;
+    
+}
+.secation4 .up > * {
+    margin-bottom: 20px;
+}
+.secation4 .up{
+    text-align: center;
+}
+.secation4 .up h1 span{
+    color: #4b8ef1;
+}
+.secation4 .up p{
+margin: auto;  
+  width: 50%;
+  margin-bottom: 50px;
+}
+.secation4 .down{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.secation4 .left > * {
+    margin-top: 40px;
+    font-size: 20px;
+}
+.secation4 .left .david{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.secation4 .left .david h2{
+    margin-bottom: 10px;
+}
+.secation4 .left .david .star {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+
+}
+.secation4 .left .david .q{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #4b8ef1;
+}
+
+.secation4 .down .right p{
+width: 300px ;
+background-color: #4b8ef1;
+color: white;
+padding: 90px 80px 40px 50px;
+border-radius: 20px;
+margin-bottom: 30px;
+}
+.secation4 .down .right .img{
+    display: flex;
+    align-items: center;
+}
+.secation4 .down .right .img img{
+    border-radius: 50%;
+}
+.secation4 .down .right .img h3{
+    width: 300px;
+    margin-left: 20px;
+    line-height: 2;
+}
+.secation5{
+    width: 90%;
+    margin: 100px auto;
+}
+.secation5 .up{
+    text-align: center;
+}
+.secation5 .up h1 span{
+ color: #4b8ef1;
+}
+.secation5 .up p{
+    width: 60%;
+    margin: 30px auto;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.secation5 .down{
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.secation5 .down .price > *{
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+.secation5 .down .price{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 50px;
+    text-align: center;
+    background-color: #4b8ef1;
+    color: white;
+    border-radius: 30px;
+}
+.secation5 .down .price p{
+    line-height: 1.5;
+}
+.secation5 .down .price .dollar{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.secation5 .down .price button{
+    background-color: #072249;
+    color: #fff;
+    padding: 6px;
+    border-radius: 40px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 16px
+
+}
+.secation5 .down .price button:hover{
+    background-color: #080101;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width :450px) {
+    
+    body{
+        overflow-x: hidden;
+    }
+    .navbar ul{
+        display: none;
+        
+    }
+   
+  
+    .navbar .menu{
+        display: block;
+    }
+    
+    .secation1{
+        width: 90%;
+       flex-direction: column;
+    }
+    
+    .secation1 .right h1{
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .secation1 .right .p{
+     font-size: 20px;
+     line-height: 1.5;
+     width: 100%;
+     margin-bottom: 30px;
+    }
+    
+   
+    .secation1 .left img{
+        width: 100%;
+    
+    }
+    .secation2{
+        width: 90%;
+        margin: 100px auto;
+    
+    
+    
+    }
+    .secation2 .up{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .secation2 .up h2{
+        font-size: 20px;
+    }
+    
+    .secation2 .up p{
+        width: 100%;
+    
+    }
+    .secation2 .down{
+       flex-direction: column;
+       margin: 50px 20px;
+    }
+    
+   
+    
+    .secation3{
+       flex-direction: column;
+    }
+   .secation3 .left{
+    margin: 20px auto;
+width: 96%;
+   }
+    .secation3 .left h1{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    
+    
+    .secation3 .left .up{
+        flex-direction: column;
+    }
+    
+    .secation4{
+        width: 90%;
+        margin: 100px auto;
+        
+    }
+   
+   .secation4 .up h1{
+    font-size: 15px;
+   }
+    .secation4 .up p{
+    margin: auto;  
+      width: 100%;
+      
+    }
+    .secation4 .down{
+        flex-direction: column;
+    }
+    
+    .secation4 .left .david{
+      flex-direction: column;
+    }
+   
+    
+    .secation4 .down .right p{
+    width: 200px ;
+    background-color: #4b8ef1;
+   margin: 20px auto;
+    }
+    .secation4 .down .right .img{
+        margin: 20px auto;
+    }
+    
+    .secation4 .down .right .img h3{
+        width: 150px;
+        font-size: 10px;
+        
+    }
+   
+   
+    .secation5 .up h1{
+        font-size: 20px;
+    }
+    .secation5 .up p{
+        width: 100%;
+       
+    }
+    .secation5 .down{
+        
+        flex-direction: column;
+    }
+   
+    
+    
+}
+@media screen and (min-width :452px) and (max-width :768px) {
+    body{
+        overflow-x: hidden;
+    }
+    .navbar ul{
+        display: none;
+        
+    }
+   
+  
+    .navbar .menu{
+        display: block;
+    }
+    
+    .secation1{
+        width: 90%;
+       flex-direction: column;
+    }
+    
+    .secation1 .right h1{
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+    .secation1 .right .p{
+     font-size: 20px;
+     line-height: 1.5;
+     width: 100%;
+     margin-bottom: 30px;
+    }
+    
+   
+    .secation1 .left img{
+        width: 100%;
+    
+    }
+   
+    .secation2{
+        width: 90%;
+        margin: 100px auto;
+    
+    
+    
+    }
+    .secation2 .up{
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .secation2 .up h2{
+        font-size: 20px;
+    }
+    
+    .secation2 .up p{
+        width: 100%;
+    
+    }
+    .secation2 .down{
+       flex-direction: row;
+flex-wrap: wrap;  
+  }
+    .secation2 .down .icon{
+        width: 43%;
+    }
+    
+    
+   
+    
+    .secation3{
+       flex-direction: column;
+    }
+   .secation3 .left{
+    margin: 20px auto;
+width: 96%;
+   }
+    .secation3 .left h1{
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    
+    
+    .secation4 .up p{
+    margin: auto;  
+      width: 100%;
+      font-size: 20px;
+      
+    }
+    .secation4 .down{
+        flex-direction: column;
+    }
+    
+   
+    
+    .secation4 .down .right p{
+    width: 400px ;
+    background-color: #4b8ef1;
+   margin: 20px auto;
+    }
+    .secation4 .down .right .img{
+        margin: 20px auto;
+    }
+    
+    .secation4 .down .right .img h3{
+        font-size: 30px;
+        width: 100%;
+        
+    }
+   
+   
+    .secation5 .up h1{
+        font-size: 20px;
+    }
+    .secation5 .up p{
+        width: 100%;
+       
+    }
+    .secation5 .down{
+        
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .secation5 .down .price > *{
+        margin-bottom: 30px;
+        font-size: 20px;
+        
+    }
+    .secation5 .down .price{
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 50px;
+        text-align: center;
+        background-color: #4b8ef1;
+        color: white;
+        border-radius: 30px;
+        width: 200px;
+    }
+    .secation5 .down .price p{
+        line-height: 1.5;
+    }
+    .secation5 .down .price .dollar{
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .secation5 .down .price button{
+        background-color: #072249;
+        color: #fff;
+        padding: 6px;
+        border-radius: 40px;
+        width: 200px;
+        cursor: pointer;
+        font-size: 16px
+    
+    }
+    .secation5 .down .price button:hover{
+        background-color: #080101;
+        color: white;
+    }
+    
+    
+    
+    
+    
+}
